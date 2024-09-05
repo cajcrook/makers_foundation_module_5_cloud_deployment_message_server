@@ -1,0 +1,10 @@
+{
+  "name": "christophercrook-message-web",
+  "domain": "christophercrook-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "christophercrook-message-database",
+    "POSTGRES_PASSWORD": "@christophercrook-postgres-password"
+  }
+}

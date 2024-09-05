@@ -1,0 +1,11 @@
+{
+  "name": "christophercrook-message-database",
+  "domain": false,
+  "hostname": "christophercrook-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@christophercrook-postgres-password"
+
+  },
+  "volumes": ["christophercrook:/var/lib/postgresql/data"]
+}
